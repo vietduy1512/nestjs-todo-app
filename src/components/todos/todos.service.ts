@@ -1,8 +1,8 @@
 import { Injectable } from '@nestjs/common';
 
 @Injectable()
-export class NoteService {
+export class TodosService {
   getAll(): string {
-    return 'This is Note!';
+    return 'This is Todo!';
   }
 }

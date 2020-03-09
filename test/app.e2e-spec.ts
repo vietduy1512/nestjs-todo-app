@@ -3,7 +3,7 @@ import { INestApplication } from '@nestjs/common';
 import * as request from 'supertest';
 import { AppModule } from './../src/app.module';
 
-describe('NoteController (e2e)', () => {
+describe('NotesController (e2e)', () => {
   let app: INestApplication;
 
   beforeEach(async () => {
